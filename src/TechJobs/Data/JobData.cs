@@ -93,7 +93,7 @@ namespace TechJobs.Data
          * Returns the Job with the given ID,
          * if it exists in the store
          */
-        public Job Find(int id)
+        public  Job Find(int id)
         {
             var results = from j in Jobs
                           where j.ID == id
